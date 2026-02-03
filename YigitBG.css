@@ -129,6 +129,10 @@ body {
     background: transparent !important;
 }
 
+.containerDefault__29444 {
+    padding-top: 8px !important;
+}
+
 .member__5d473 {
     background: #0005 !important;
     margin-top: 4px;
@@ -149,15 +153,15 @@ body {
 }
 
 .guilds__5e434 {
-    margin-bottom: 70px !important;
+    margin-bottom: 64px !important;
 }
 
 .container__2637a {
-    padding-bottom: 70px !important;
+    padding-bottom: 64px !important;
 }
 
 .privateChannels_e6b769 {
-    margin-bottom: 70px !important;
+    margin-bottom: 64px !important;
 }
 
 .divider__5126c {
