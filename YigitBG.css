@@ -48,7 +48,6 @@ body {
     background: transparent !important;
 }
 
-
 .sidebar__5e434,
 .container__2637a,
 .container_c8ffbb,
@@ -88,4 +87,16 @@ body {
 .root__5c9fc,
 .container_a2f514 {
 	background-color: var(--background-primary) !important;
+}
+
+.sidebar__5e434:after {
+    content: none;
+}
+
+.member__5d473 {
+    background: #0005 !important;
+}
+
+.offline__5d473 {
+    background: transparent !important;
 }
