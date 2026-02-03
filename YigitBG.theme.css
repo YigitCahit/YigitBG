@@ -1,0 +1,17 @@
+/**
+ * @name YigitBG
+ * @description Discord'un orijinal tasarımını bozmadan sadece arkaplan görseli eklemenizi sağlar.
+ * @author YigitCahit
+ * @version 0.0.1
+ * @source https://github.com/YigitCahit/YigitBG
+**/
+
+@import url(https://raw.githubusercontent.com/YigitCahit/YigitBG/main/YigitBG.css);
+
+:root {
+	--background: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1920);
+	--backgroundposition: center;
+	--backgroundsize: cover;
+	--backgroundblur: 0;
+	--backgroundopacity: 0.5;
+}

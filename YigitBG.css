@@ -1,0 +1,81 @@
+/**
+ * @name YigitBG
+ * @description Discord'un orijinal tasarımını bozmadan sadece arkaplan görseli eklemenizi sağlar.
+ * @author YigitCahit
+ * @version 0.0.1
+**/
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -2;
+	background: var(--background, url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1920));
+	background-position: var(--backgroundposition, center);
+	background-size: var(--backgroundsize, cover);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	filter: blur(calc(var(--backgroundblur, 0) * 1px));
+}
+
+body {
+	background: transparent !important;
+}
+
+#app-mount {
+	background: rgba(0, 0, 0, var(--backgroundopacity, 0.5)) !important;
+}
+
+.app_a3002d,
+.app__160d8,
+.bg__960e4 {
+	background: transparent !important;
+}
+
+.layer__960e4 {
+	background: transparent !important;
+}
+
+.sidebar__5e434,
+.container__2637a,
+.container_c8ffbb,
+.membersWrap_c8ffbb,
+.title_f75fb0,
+.members_c8ffbb,
+.privateChannels_e6b769,
+.container_f37cb1,
+.panels__5e434 {
+	background: transparent !important;
+}
+
+.chat_f75fb0,
+.chatContent_f75fb0 {
+	background: transparent !important;
+}
+
+.wrapper_ef3116,
+.scroller_ef3116 {
+	background: transparent !important;
+}
+
+.messagesWrapper__36d07 {
+	background: transparent !important;
+}
+
+.scroller__5ddd2,
+.scrollerBase__99f8c {
+	background: transparent !important;
+}
+
+.noChannel__01d5c {
+	background: transparent !important;
+}
+
+.layer__960e4 ~ .layer__960e4,
+.root__5c9fc,
+.container_a2f514 {
+	background-color: var(--background-primary) !important;
+}
