@@ -94,8 +94,13 @@ body {
     content: none;
 }
 
+.container__0f2e8 {
+    background: transparent !important;
+}
+
 .member__5d473 {
     background: #0005 !important;
+    margin-top: 4px;
 }
 
 .offline__5d473 {

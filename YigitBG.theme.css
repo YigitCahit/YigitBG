@@ -6,7 +6,7 @@
  * @source https://github.com/YigitCahit/YigitBG
  */
 
-@import url(https://raw.githubusercontent.com/YigitCahit/YigitBG/main/YigitBG.css);
+@import url(https://cdn.jsdelivr.net/gh/YigitCahit/YigitBG@main/YigitBG.css);
 
 :root {
 	--background: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1920);
