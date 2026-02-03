@@ -103,6 +103,20 @@ body {
 }
 
 .channelTextArea_f75fb0,
-.chatGradient__36d07 {
+.chatGradient__36d07,
+.themedBackground__74017 {
     background: transparent !important;
+}
+
+.guilds__5e434 {
+    margin-bottom: 70px;
+}
+
+.container__2637a,
+.content__908e2 {
+    padding-bottom: 70px;
+}
+
+.divider__5126c {
+    border: none;
 }
