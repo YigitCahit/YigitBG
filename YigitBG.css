@@ -87,10 +87,6 @@ body {
     mask: linear-gradient(180deg, #000, transparent) bottom / 100% 16px no-repeat, linear-gradient(#000, #000) top / 100% calc(100% - 15px) no-repeat;
 }
 
-.sidebarList__5e434 {
-    padding-bottom: 70px !important;
-}
-
 .scroller__99e7c {
     margin-bottom: 0 !important;
 }
@@ -158,6 +154,10 @@ body {
 
 .container__2637a {
     padding-bottom: 70px !important;
+}
+
+.privateChannels_e6b769 {
+    margin-bottom: 70px !important;
 }
 
 .divider__5126c {
