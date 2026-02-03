@@ -3,7 +3,7 @@
  * @description Discord'un orijinal tasarımını bozmadan sadece arkaplan görseli eklemenizi sağlar.
  * @author YigitCahit
  * @version 0.0.1
-**/
+ */
 
 body::before {
 	content: "";
