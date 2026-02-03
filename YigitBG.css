@@ -61,9 +61,17 @@ body {
 }
 
 .chat_f75fb0,
-.chatContent_f75fb0,
-.chatGradientBase__36d07 {
+.chatContent_f75fb0 {
 	background: transparent !important;
+}
+
+.chatGradientBase__36d07 {
+    background: transparent !important;
+    height: 0 !important;
+}
+
+.scrollerSpacer__36d07 {
+    height: 20px !important;
 }
 
 .wrapper_ef3116,
