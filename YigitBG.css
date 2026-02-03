@@ -60,8 +60,7 @@ body {
 	background: transparent !important;
 }
 
-.chat_f75fb0,
-.chatContent_f75fb0 {
+.chat_f75fb0 {
 	background: transparent !important;
 }
 
@@ -72,6 +71,11 @@ body {
 
 .scrollerSpacer__36d07 {
     height: 20px !important;
+}
+
+.chatContent_f75fb0 {
+    background: transparent !important;
+    gap: 16px !important;
 }
 
 .wrapper_ef3116,
@@ -100,7 +104,7 @@ body {
 
 .children__9293f:after,
 .sidebar__5e434:after {
-    content: none;
+    content: none !important;
 }
 
 .container__0f2e8 {
@@ -127,13 +131,13 @@ body {
 }
 
 .guilds__5e434 {
-    margin-bottom: 70px;
+    margin-bottom: 70px !important;
 }
 
 .container__2637a {
-    padding-bottom: 70px;
+    padding-bottom: 70px !important;
 }
 
 .divider__5126c {
-    border: none;
+    border: none !important;
 }
