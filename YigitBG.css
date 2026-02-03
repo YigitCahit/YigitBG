@@ -82,8 +82,17 @@ body {
 }
 
 .scroller__36d07,
+.scroller__99e7c,
 .scroller__629e4 {
     mask: linear-gradient(180deg, #000, transparent) bottom / 100% 16px no-repeat, linear-gradient(#000, #000) top / 100% calc(100% - 15px) no-repeat;
+}
+
+.sidebarList__5e434 {
+    padding-bottom: 70px !important;
+}
+
+.scroller__99e7c {
+    margin-bottom: 0 !important;
 }
 
 .chatContent_f75fb0 {
