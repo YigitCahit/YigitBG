@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "YigitBG Discord Theme Controller",
+  "description": "Discord arka plan temasini YigitBG degiskenleriyle yonetir.",
+  "version": "1.0.0",
+  "permissions": ["storage", "unlimitedStorage", "declarativeNetRequest", "declarativeNetRequestWithHostAccess"],
+  "host_permissions": ["https://discord.com/*", "https://*.discord.com/*", "https://*/*", "http://*/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "discord-csp",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_title": "YigitBG Theme",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*", "https://*.discord.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

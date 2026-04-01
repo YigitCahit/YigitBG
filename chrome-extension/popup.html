@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YigitBG Theme</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="panel">
+      <h1>YigitBG Theme</h1>
+      <p class="subtitle">Discord arka plan ayarlarini aninda degistir.</p>
+
+      <form id="theme-form">
+        <label for="backgroundUrl">Background URL</label>
+        <input id="backgroundUrl" name="backgroundUrl" type="url" placeholder="https://..." required />
+        <p class="hint">URL kaydederken resim otomatik gomulur; bu sayede Discord CSP engelleri asilir.</p>
+
+        <label for="position">Position</label>
+        <input id="position" name="position" type="text" list="positionOptions" placeholder="center" />
+        <datalist id="positionOptions">
+          <option value="center"></option>
+          <option value="top"></option>
+          <option value="bottom"></option>
+          <option value="left"></option>
+          <option value="right"></option>
+          <option value="center top"></option>
+        </datalist>
+
+        <label for="size">Size</label>
+        <input id="size" name="size" type="text" list="sizeOptions" placeholder="cover" />
+        <datalist id="sizeOptions">
+          <option value="cover"></option>
+          <option value="contain"></option>
+          <option value="auto"></option>
+          <option value="100% auto"></option>
+          <option value="100% 100%"></option>
+        </datalist>
+
+        <label for="blur">Blur <span id="blurValue">0</span>px</label>
+        <input id="blur" name="blur" type="range" min="0" max="60" step="1" />
+
+        <label for="opacity">Opacity <span id="opacityValue">0.50</span></label>
+        <input id="opacity" name="opacity" type="range" min="0" max="1" step="0.01" />
+
+        <div class="actions">
+          <button type="button" id="resetButton" class="ghost">Varsayilan</button>
+          <button type="submit" class="solid">Kaydet</button>
+        </div>
+
+        <p id="status" role="status" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

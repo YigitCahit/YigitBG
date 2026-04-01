@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+
+:root {
+  --bg-start: #0b1a2a;
+  --bg-end: #193a5b;
+  --panel: rgba(8, 16, 28, 0.9);
+  --line: rgba(157, 213, 255, 0.28);
+  --text: #f3f8ff;
+  --muted: #b6c8dc;
+  --accent: #56c4ff;
+  --accent-strong: #2c8fc7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 360px;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at 20% 0%, #2d6791 0%, transparent 45%),
+    linear-gradient(135deg, var(--bg-start), var(--bg-end));
+}
+
+.panel {
+  margin: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+}
+
+.subtitle {
+  margin: 6px 0 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.hint {
+  margin: -4px 0 4px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(86, 196, 255, 0.2);
+}
+
+input[type="range"] {
+  padding: 0;
+  accent-color: var(--accent);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+button.ghost {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+button.solid {
+  background: linear-gradient(120deg, var(--accent), #84dcff);
+  color: #042035;
+}
+
+#status {
+  margin: 4px 0 0;
+  min-height: 16px;
+  font-size: 12px;
+  color: var(--accent);
+}
