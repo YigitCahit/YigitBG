@@ -1,0 +1,25 @@
+/**
+ * YigitBG - Kişisel Ayarlar
+ *
+ * Buradaki değerleri değiştirip Discord'da Ctrl+R'a basarak
+ * arkaplanı anında güncelleyebilirsiniz (Discord'u kapatmaya gerek yok).
+ *
+ * Yerel bir resim kullanmak isterseniz:
+ *   --background: url("file:///C:/Users/cahit/Resimler/arkaplan.png");
+ */
+:root {
+	/* Arkaplan görseli (kendi görselinizin URL'si) */
+	--background: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1920);
+
+	/* Görselin konumu: center, top, bottom, left, right ... */
+	--backgroundposition: center;
+
+	/* Görselin boyutlanması: cover, contain, auto */
+	--backgroundsize: cover;
+
+	/* Bulanıklık miktarı (piksel). 0 = net, 10 = oldukça bulanık */
+	--backgroundblur: 0;
+
+	/* Karartma/opaklık. 0 = görsel net, 1 = tamamen siyah */
+	--backgroundopacity: 0.5;
+}
