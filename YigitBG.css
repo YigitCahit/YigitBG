@@ -172,6 +172,11 @@ body {
 .shop__6db1d,
 .shop__08415,
 .shopScroll__08415 {
-	background-color: transparent !important;
+	background: transparent !important;
+}
+
+.applicationStore_f07d62,
+.homeWrapper__0920e,
+.mainPageScroller__80907 {
 	background: transparent !important;
 }
