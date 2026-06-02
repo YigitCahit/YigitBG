@@ -44,6 +44,7 @@ body {
 .tabBody__133bf,
 .nowPlayingColumn__133bf,
 .scroller__99e7c,
+.scroller__23746,
 .container__5e434{
     background: transparent !important;
 }
@@ -83,8 +84,7 @@ body {
 
 .scroller__36d07,
 .scroller__99e7c,
-.scroller__629e4,
-.scroller__23746 {
+.scroller__629e4 {
     mask: linear-gradient(180deg, #000, transparent) bottom / 100% 16px no-repeat, linear-gradient(#000, #000) top / 100% calc(100% - 15px) no-repeat;
 }
 
