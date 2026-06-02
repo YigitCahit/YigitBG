@@ -168,3 +168,10 @@ body {
 .divider__5126c {
     border: none !important;
 }
+
+.shop__6db1d,
+.shop__08415,
+.shopScroll__08415 {
+	background-color: transparent !important;
+	background: transparent !important;
+}
