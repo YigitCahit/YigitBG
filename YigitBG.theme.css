@@ -2,11 +2,14 @@
  * @name YigitBG
  * @description Discord'un orijinal tasarımını bozmadan sadece arkaplan görseli eklemenizi sağlar.
  * @author YigitCahit
- * @version 0.0.1
+ * @version 0.0.2
  * @source https://github.com/YigitCahit/YigitBG
  */
 
 @import url(https://cdn.jsdelivr.net/gh/YigitCahit/YigitBG@main/YigitBG.css);
+
+/* Özel fontları içe aktar */
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"); */
 
 :root {
 	--background: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1920);
@@ -14,4 +17,12 @@
 	--backgroundsize: cover;
 	--backgroundblur: 0;
 	--backgroundopacity: 0.5;
+
+	--fontfamily: "gg sans";
+	--fontfamilyheading: "ABC Ginto Nord";
+	--fontfamilycode: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Liberation Mono", Monaco, "Courier New", monospace;
+	--fontsize: 16px;
+	--fontweight: 400;
+	--fontlineheight: 1.375;
+	--fontletterspacing: 0;
 }

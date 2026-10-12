@@ -2,8 +2,38 @@
  * @name YigitBG
  * @description Discord'un orijinal tasarımını bozmadan sadece arkaplan görseli eklemenizi sağlar.
  * @author YigitCahit
- * @version 0.0.1
+ * @version 0.0.2
  */
+
+:root,
+.theme-dark,
+.theme-light,
+.theme-darker,
+.theme-midnight {
+	--font-primary: var(--fontfamily, "gg sans"), "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	--font-display: var(--fontfamily, "gg sans"), "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	--font-headline: var(--fontfamilyheading, "ABC Ginto Nord"), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	--font-code: var(--fontfamilycode, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", monospace) !important;
+}
+
+body {
+	font-family: var(--font-primary) !important;
+	letter-spacing: calc(var(--fontletterspacing) * 1px);
+}
+
+button,
+input,
+textarea,
+select {
+	font-family: var(--font-primary) !important;
+}
+
+[class*="markup_"],
+[class*="messageContent_"] {
+	font-size: var(--fontsize) !important;
+	font-weight: var(--fontweight) !important;
+	line-height: var(--fontlineheight) !important;
+}
 
 body::before {
 	content: "";
