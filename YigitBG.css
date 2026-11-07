@@ -33,7 +33,8 @@ body {
 	background: rgba(0, 0, 0, var(--backgroundopacity, 0.5)) !important;
 }
 
-.sidebar_pog62O:after {
+.sidebar_pog62O:after,
+.children_ybUK7Z:after {
 	background: transparent !important;
 }
 
@@ -56,6 +57,7 @@ body {
 .nowPlayingColumn__133bf,
 .scroller__99e7c,
 .scroller__23746,
+.scroller_Bce46W,
 .container__5e434{
     background: transparent !important;
 }
@@ -68,7 +70,9 @@ body {
 .members_c8ffbb,
 .privateChannels_e6b769,
 .privateChannels_u88IQl,
+.scrollableContainer_2x8-Qn,
 .container_f37cb1,
+.container_zrUwGA,
 .panels__5e434 {
 	background: transparent !important;
 }
@@ -110,6 +114,7 @@ body {
 }
 
 .wrapper_ef3116,
+.wrapper_5dqHTG,
 .scroller_ef3116 {
 	background: transparent !important;
 }
@@ -138,7 +143,8 @@ body {
     content: none !important;
 }
 
-.container__0f2e8 {
+.container__0f2e8,
+.container_H5ozaj {
     background: transparent !important;
 }
 
@@ -157,6 +163,7 @@ body {
 
 .channelTextArea_f75fb0,
 .chatGradient__36d07,
+.chat_z_gUBg,
 .themedBackground__74017,
 .themed_ybUK7Z {
     background: transparent !important;
