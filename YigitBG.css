@@ -33,6 +33,10 @@ body {
 	background: rgba(0, 0, 0, var(--backgroundopacity, 0.5)) !important;
 }
 
+.sidebar_pog62O:after {
+	background: transparent !important;
+}
+
 .app_a3002d,
 .app__160d8,
 .app_QbT-Jy,
