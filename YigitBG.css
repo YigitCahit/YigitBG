@@ -21,6 +21,10 @@ body::before {
 	filter: blur(calc(var(--backgroundblur, 0) * 1px));
 }
 
+:root {
+	--background-base-lower: none;
+}
+
 body {
 	background: transparent !important;
 }
@@ -32,7 +36,8 @@ body {
 .app_a3002d,
 .app__160d8,
 .app_QbT-Jy,
-.bg__960e4 {
+.bg__960e4,
+.bg_Fd0FEH {
 	background: transparent !important;
 }
 
