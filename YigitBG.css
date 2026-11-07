@@ -37,6 +37,7 @@ body {
 .app__160d8,
 .app_QbT-Jy,
 .bg__960e4,
+.bg_Fd0FEH,
 .bg_Fd0FEH {
 	background: transparent !important;
 }
@@ -63,6 +64,7 @@ body {
 .title_f75fb0,
 .members_c8ffbb,
 .privateChannels_e6b769,
+.privateChannels_u88IQl,
 .container_f37cb1,
 .panels__5e434 {
 	background: transparent !important;
@@ -152,7 +154,8 @@ body {
 
 .channelTextArea_f75fb0,
 .chatGradient__36d07,
-.themedBackground__74017 {
+.themedBackground__74017,
+.themed_ybUK7Z {
     background: transparent !important;
 }
 
@@ -160,7 +163,8 @@ body {
     background: transparent !important;
 }
 
-.guilds__5e434 {
+.guilds__5e434,
+.guilds_pog62O {
     margin-bottom: 64px !important;
 }
 
