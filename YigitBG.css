@@ -55,9 +55,16 @@ body::before {
 	background: rgba(0, 0, 0, var(--backgroundopacity, 0.5)) !important;
 }
 
+.sidebar_pog62O:after,
+.children_ybUK7Z:after {
+	background: transparent !important;
+}
+
 .app_a3002d,
 .app__160d8,
-.bg__960e4 {
+.app_QbT-Jy,
+.bg__960e4,
+.bg_Fd0FEH {
 	background: transparent !important;
 }
 
@@ -67,10 +74,12 @@ body::before {
 
 .container__133bf,
 .container__9293f,
+.content_pog62O,
 .tabBody__133bf,
 .nowPlayingColumn__133bf,
 .scroller__99e7c,
 .scroller__23746,
+.scroller_Bce46W,
 .container__5e434{
     background: transparent !important;
 }
@@ -82,7 +91,11 @@ body::before {
 .title_f75fb0,
 .members_c8ffbb,
 .privateChannels_e6b769,
+.privateChannels_u88IQl,
+.scrollableContainer_2x8-Qn,
+.channelTextArea_z_gUBg,
 .container_f37cb1,
+.container_zrUwGA,
 .panels__5e434 {
 	background: transparent !important;
 }
@@ -124,6 +137,7 @@ body::before {
 }
 
 .wrapper_ef3116,
+.wrapper_5dqHTG,
 .scroller_ef3116 {
 	background: transparent !important;
 }
@@ -152,7 +166,8 @@ body::before {
     content: none !important;
 }
 
-.container__0f2e8 {
+.container__0f2e8,
+.container_H5ozaj {
     background: transparent !important;
 }
 
@@ -171,7 +186,9 @@ body::before {
 
 .channelTextArea_f75fb0,
 .chatGradient__36d07,
-.themedBackground__74017 {
+.chat_z_gUBg,
+.themedBackground__74017,
+.themed_ybUK7Z {
     background: transparent !important;
 }
 
@@ -179,7 +196,8 @@ body::before {
     background: transparent !important;
 }
 
-.guilds__5e434 {
+.guilds__5e434,
+.guilds_pog62O {
     margin-bottom: 64px !important;
 }
 
@@ -209,4 +227,12 @@ body::before {
 
 .emptyCard__7e549 {
 	background: #0005 !important;
+}
+
+.scroller_8AE1Qq {
+	bottom: 16px;
+}
+
+.scrollerSpacer_8AE1Qq {
+	height: 24px;
 }
