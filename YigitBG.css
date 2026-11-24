@@ -51,10 +51,6 @@ body::before {
 	filter: blur(calc(var(--backgroundblur, 0) * 1px));
 }
 
-body {
-	background: transparent !important;
-}
-
 #app-mount {
 	background: rgba(0, 0, 0, var(--backgroundopacity, 0.5)) !important;
 }
