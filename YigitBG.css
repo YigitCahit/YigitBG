@@ -2,7 +2,7 @@
  * @name YigitBG
  * @description Discord'un orijinal tasarımını bozmadan sadece arkaplan görseli eklemenizi sağlar.
  * @author YigitCahit
- * @version 0.0.1
+ * @version 0.0.21
  */
 
 body::before {
@@ -23,10 +23,6 @@ body::before {
 
 :root {
 	--background-base-lower: none;
-}
-
-body {
-	background: transparent !important;
 }
 
 #app-mount {
